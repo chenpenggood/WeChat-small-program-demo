@@ -11,16 +11,16 @@
   
 #### 手机测试截图：
 
-![img](https://github.com/chenpenggood/WeChat-small-program-demo/blob/master/assets/screenshot/fengmian.png?raw=true)          
+![img](https://github.com/chenpenggood/WeChat-small-program-demo/blob/master/assets/screenshot/fengmian.png?raw=true) 
 ![img](https://github.com/chenpenggood/WeChat-small-program-demo/blob/master/assets/screenshot/leader.png?raw=true)
 
-![img](https://github.com/chenpenggood/WeChat-small-program-demo/blob/master/assets/screenshot/category.png?raw=true)           
+![img](https://github.com/chenpenggood/WeChat-small-program-demo/blob/master/assets/screenshot/category.png?raw=true) 
 ![img](https://github.com/chenpenggood/WeChat-small-program-demo/blob/master/assets/screenshot/booklist.png?raw=true)
 
-![img](https://github.com/chenpenggood/WeChat-small-program-demo/blob/master/assets/screenshot/mine.png?raw=true)            
+![img](https://github.com/chenpenggood/WeChat-small-program-demo/blob/master/assets/screenshot/mine.png?raw=true) 
 ![img](https://github.com/chenpenggood/WeChat-small-program-demo/blob/master/assets/screenshot/news.png?raw=true)
 
-![img](https://github.com/chenpenggood/WeChat-small-program-demo/blob/master/assets/screenshot/stories.png?raw=true)           
+![img](https://github.com/chenpenggood/WeChat-small-program-demo/blob/master/assets/screenshot/stories.png?raw=true) 
 ![img](https://github.com/chenpenggood/WeChat-small-program-demo/blob/master/assets/screenshot/book.png?raw=true)
 
 ![img](https://github.com/chenpenggood/WeChat-small-program-demo/blob/master/assets/screenshot/author.png?raw=true)
