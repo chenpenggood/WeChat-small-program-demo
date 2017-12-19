@@ -1,0 +1,32 @@
+/**app.wxss**/
+ @import "./weui.wxss"; 
+.container {
+  margin: 0;
+  padding: 0;
+  font-family: PingFangSC-Regular, sans-serif;
+  list-style: none;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 100vh;
+} 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.page-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+::-webkit-scrollbar{
+  width:0;
+  height: 0;
+  color: transparent;
+}

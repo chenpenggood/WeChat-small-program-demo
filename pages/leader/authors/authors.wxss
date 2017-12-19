@@ -1,0 +1,40 @@
+/* pages/leader/authors/authors.wxss */
+.container{
+  padding: 30rpx;
+}
+.page__img{
+  width:80%;
+  height: 400rpx; 
+  margin: 10rpx auto;
+  margin-bottom: 20rpx;
+}
+.page__img image{
+  width:100%;
+  height:100%;
+  border-radius: 20rpx;
+}
+.page_authorName{
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: bold;
+  color:#000;
+}
+.page__authorInfo{
+  font-size: 30rpx;
+  color: #444;
+  padding-bottom: 30rpx;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 30rpx;
+  text-indent: 2em;
+}
+.page__authorPro{
+  flex: 3;
+  font-size: 30rpx;
+  text-align: center;
+}
+.page__authorWriting{
+  padding-left: 30rpx;
+  flex: 8;
+  font-size: 30rpx;
+  border-left: 1px solid #e0e0e0;
+}

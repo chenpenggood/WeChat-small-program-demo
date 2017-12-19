@@ -1,0 +1,20 @@
+<!--pages/stack/booklist/booklist.wxml-->
+<view class='bookList'>
+  <view wx:for="{{bookList}}" wx:key="index" wx:item="item">
+    <view class='book-list-root' bindtap='bindViewTap'>
+      <image src='{{item.bookCover}}' class='book-list-image'></image>
+      <view class='book-list-child'>
+        <view>
+          <text class='book-list-name'>{{item.bookName}}</text>
+        </view>
+        <view>
+          <text class='book-list-author'>{{item.authorName}}</text>
+        </view> 
+        <view class='book-list-des'>
+          <text>{{item.bookDes}}</text>
+        </view>
+      </view>
+    </view>
+    <view class='line'></view>
+  </view>
+</view>

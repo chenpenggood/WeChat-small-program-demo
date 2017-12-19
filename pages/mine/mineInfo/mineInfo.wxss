@@ -1,0 +1,31 @@
+.page-items-lt, .page-items-md {
+    margin-left: 34rpx;
+}
+.page-items-lt {
+    margin-top: 6rpx;
+    flex: 1;
+}
+.page-items-md {
+    font-size: 34rpx;
+    color: #444;
+    margin-right: 10rpx;
+    flex: 12;
+}
+
+.page-items-others {
+    font-size: 30rpx;
+    color: #fff; 
+    padding: 5rpx;
+    border-radius: 45rpx;
+    background-color: red;
+    text-align: center;
+    line-height: 44rpx;
+    flex: 1;
+}
+.page-items-ft {
+    width: 55rpx;
+    color: #b3b3b3;    
+    font-size: 34rpx;
+    flex:2;
+    margin-left: 15rpx;
+}

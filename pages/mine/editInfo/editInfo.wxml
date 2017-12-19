@@ -1,0 +1,15 @@
+<!--pages/mine/editInfo/editInfo.wxml-->
+<view class='container'>
+  <view class='page__userImg'>
+    <image src="{{userInfo.userImg}}" mode='aspectFill' bindtap="chooseImageTap"></image>
+  </view>
+    <view class='page__name page_info'>
+    昵称：<text>{{userInfo.userName}}</text>
+  </view>
+  <view class='page__account page_info'>
+    账号：<text>{{userInfo.userAccount}}</text>
+  </view>
+  <view class='page__pageword page_info' data-password="{{userInfo.password}}">
+    更改密码
+  </view>
+</view>

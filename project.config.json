@@ -1,0 +1,83 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.6.0",
+	"appid": "touristappid",
+	"projectname": "my_projeck",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "stories",
+					"pathName": "pages/leader/stories/stories",
+					"query": "id=0"
+				},
+				{
+					"id": -1,
+					"name": "stack",
+					"pathName": "pages/stack/stack",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "booklist",
+					"pathName": "pages/stack/booklist/booklist",
+					"query": "id=0"
+				},
+				{
+					"id": -1,
+					"name": "bookdesk",
+					"pathName": "pages/bookdesk/bookdesk",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "mine",
+					"pathName": "pages/mine/mine",
+					"query": ""
+				},
+				{
+					"id": 5,
+					"name": "news",
+					"pathName": "pages/mine/news/news",
+					"query": ""
+				},
+				{
+					"id": 6,
+					"name": "lingdu",
+					"pathName": "pages/leader/leader",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "authors",
+					"pathName": "pages/leader/authors/authors",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "editInfo",
+					"pathName": "pages/mine/editInfo/editInfo",
+					"query": ""
+				}
+			]
+		}
+	}
+}

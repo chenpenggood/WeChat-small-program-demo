@@ -1,0 +1,15 @@
+<!--pages/leader/authors/authors.wxml-->
+<view class='container'>
+  <view class='page__img'>
+    <image src='{{articl.headImg}}' mode="aspectFill"></image>
+  </view>
+  <view class='page__authorInfo'>
+    <text class='page_authorName'>{{articl.userName}}</text><text>--{{articl.articSummary}}</text>
+  </view>
+  <view class='page__works page-flex'>
+    <text class='page__authorPro'>个人作品</text> 
+    <view class='page__authorWriting'>
+      <view wx:for="{{articl.production}}" wx:key="index">{{item}}</view>
+    </view> 
+  </view>
+</view>

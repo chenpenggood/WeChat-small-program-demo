@@ -1,0 +1,37 @@
+<import src="./mineInfo/mineInfo.wxml"/>
+
+<view class='container'>
+    <!-- 个人信息 -->
+    <view class='page__hd'>
+      <navigator url='editInfo/editInfo' hover-class="none">
+        <view class='page__hd-tp'>编辑</view>
+      </navigator>
+      <view class='page__hd-md center'>
+        <image src='{{mine.userCover}}'></image>
+      </view>
+      <view class='page-username center'>{{mine.userName}}</view>
+      <view class='page__hd-bt page-flex'>
+        <view class='page-bt-lt'>
+          <view class='page-lt-readingtimes'>{{mine.readTime}}</view>
+          <view class='page-lt-readingtime'>读书时长</view>
+        </view>
+        <view class='cline'>|</view>
+        <view class='page-bt-rt'>
+          <view class='page-rt-lt'>
+            <view class='page-rt-numbers'>{{mine.readNum}} 秀豆</view>
+            <view class='page-rt-items'> >></view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!-- mineInfo -->
+    <view class='page__bd'>
+      <template is="mineInfo" data="{{...mineNew}}"></template>
+      <template is="mineInfo" data="{{...mineBooklist}}"></template>
+      <template is="mineInfo" data="{{...mineNote}}"></template>
+      <template is="mineInfo" data="{{...mineFans}}"></template>
+      <template is="mineInfo" data="{{...mineBuytime}}"></template>
+      <template is="mineInfo" data="{{...mineOrder}}"></template>
+      <template is="mineInfo" data="{{...mineSetting}}"></template>
+    </view>
+</view>

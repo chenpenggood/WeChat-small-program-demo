@@ -1,0 +1,68 @@
+/* pages/bookdesk/bookdesk.wxss */
+
+.page__hd {
+    position: relative;
+}
+.page__hd-mm {
+    font-size: 38rpx;
+    color: #444;
+    line-height: 38rpx;
+    font-family: bold;
+}
+.page__hd-dd {
+    font-size: 24rpx;
+    color:#B3B3B3;
+    margin-left: 14rpx;
+}
+.page__hd .page__hd-xiala image{
+    width: 18rpx;
+    height: 18rpx;
+    margin-left: 16rpx;
+    margin-bottom: 6rpx;
+}
+.page__hd .page__hd-desk image {
+    position: absolute;
+    width: 60rpx;
+    height: 60rpx;
+    margin-top: -32rpx;
+    margin-left: 232rpx;
+}
+.page__bd {
+}
+.swiper {
+    margin-left: 168rpx;
+    width: 416rpx;
+    height: 1000rpx;
+}
+.page__bd-books image {
+    margin-top: 116rpx;
+    width: 416rpx;
+    height: 582rpx;
+    border-radius: 8rpx;
+}
+.page__bt-readings {
+    margin-top: 80rpx;
+    font-size: 38rpx;
+    color: #444;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    
+    
+    display:-webkit-box; 
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:1; 
+}
+.page__bt-items {
+    margin-top: 42rpx;
+}
+.page__bt-items>view {
+    font-size: 26rpx;
+    color: #B3B3B3;
+}
+.page__bt-items image {
+    width: 24rpx;
+    height: 24rpx;
+    margin-left: 16rpx;
+}

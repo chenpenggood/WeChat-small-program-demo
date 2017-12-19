@@ -1,0 +1,10 @@
+<template name="mineInfo">
+   <view class='page-items page-flex' bindtap='toMyInfo' id='{{id}}'>
+    <view class='page-items-lt'>
+      <image src='../../assets/images/mines/{{urlName}}.png'></image>
+    </view>
+    <view class='page-items-md'>{{title}}</view>
+    <view wx:if="{{id != 6}}" class='page-items-others'>{{num}}</view>
+    <view class='page-items-ft'>>></view>
+  </view>
+</template>  

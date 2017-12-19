@@ -1,0 +1,86 @@
+/* pages/mine/mine.wxss */
+@import "./mineInfo/mineInfo.wxss";
+
+.page__hd {
+    height: 516rpx;
+}
+
+.page__hd-tp {
+    text-align: right;
+    margin-right: 32rpx;
+    font-size: 34rpx;
+    color: #C2B282;
+}
+
+.page__hd-md image {
+    width: 164rpx;
+    height: 164rpx;
+    margin-bottom: 40rpx;
+    border-radius: 50%;
+}
+
+.page-username {
+    font-size: 36rpx;
+    color: #444;
+    margin-bottom: 72rpx;
+}
+
+
+/* .page-bt-lt:after {
+    content: "" ;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 375rpx;
+    border-bottom: 38rpx solid #000;
+} */
+
+.page-bt-lt,
+.page-bt-rt {
+    width: 375rpx;
+}
+.cline {
+    margin-left: 80rpx;
+    color: #999;
+}
+.page-lt-readingtimes,
+.page-rt-numbers {
+    font-size: 34rpx;
+    color: #444;
+    text-align: center;
+    margin-left: 60rpx;
+}
+
+.page-lt-readingtime,
+.page-rt-items {
+    font-size: 26rpx;
+    color: #b3b3b3;
+    text-align: center;
+    margin-left: 60rpx;
+}
+
+.page-rg {
+    font-size: 34rpx;
+    color: #b3b3b3;
+    margin-right: 28rpx;
+}
+
+.page__hd:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 516rpx;
+    border-top: 18rpx solid #F6F6F6;
+}
+
+.page__bd {
+    margin-top: 40rpx;
+}
+.page__bd-items {
+    margin-bottom: 64rpx;
+}
+.page__bd image {
+    width: 40rpx;
+    height: 40rpx;
+}

@@ -1,0 +1,26 @@
+/* pages/mine/editInfo/editInfo.wxss */
+.container{
+  padding: 20rpx 50rpx;
+  color:#444;
+}
+.page__userImg{
+  width:300rpx;
+  height:300rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 10rpx auto;
+  margin-bottom: 50rpx;
+}
+.page__userImg image{
+  width:100%;
+  height:100%;
+}
+.page_info{
+  font-size: 36rpx;
+  padding: 15rpx;
+  border-bottom: 1px solid #e0e0e0;
+}
+.page_info text{
+  text-align: right;
+  float: right;
+}

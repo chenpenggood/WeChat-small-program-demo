@@ -1,0 +1,31 @@
+<!--pages/leader/leader.wxml-->
+<view class='container'>
+  <view class='page__hd'>
+    <view class='page__hd-pagetitle'>领读</view>
+  </view>
+  <scroll-view class='page__bd' wx:for="{{authors}}" wx:key="{{index}}" wx:item="item" scroll-y="true">
+    <navigator url='authors/authors?id={{item.id}}' data-index="{{index}}"  hover-class="none">
+      <view class='page__bd-head'>
+        <view class='head-img'>
+          <image src='{{item.headImg}}' class='pic' mode='aspectFill'></image>
+        </view>
+        <view class='artic-author page-flex'>{{item.userName}}</view>
+      </view>
+    </navigator>
+    <navigator url='stories/stories?id={{index}}'>
+      <view class='page__bd-banner center'>
+        <image src='{{item.bannerImg}}' mode='aspectFill'></image>
+      </view>
+      <view class='page__bd-middle'>
+        <view class='artic-title'>{{item.articTitle}}</view>
+        <view class='artic-content'>{{item.articContent}}</view>
+      </view>
+    </navigator>
+      <view class='page__bd-foot'>
+        <view class='foot-lt clickTimes fl page-flex'>{{item.clickTimes}}次点击</view>
+        <view class='foot-rt thumbUp' bindtap="dianZan" id='{{item.id}}' data-index="{{index}}">{{item.thumbUp}}
+            <image src='../../assets/images/{{item.good ? "tap_good" : "good"}}.png' mode="aspectFill"></image>
+        </view>
+      </view>
+  </scroll-view>
+</view>
