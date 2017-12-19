@@ -9,7 +9,7 @@
 
 ----
   
-#### 手机测试截图：
+#### 测试截图：
 
 ![img](https://github.com/chenpenggood/WeChat-small-program-demo/blob/master/assets/screenshot/fengmian.png?raw=true) 
 ![img](https://github.com/chenpenggood/WeChat-small-program-demo/blob/master/assets/screenshot/leader.png?raw=true)
@@ -214,5 +214,4 @@
 这次学习小程序学到很多知识，尽管是一些常用的代码，但对我们新手来说是一次很好的敲门砖，快速入门。看起来页面很多，其实没几个，慢慢来，不要一下就想写完，有问题查资料，写完你会发现其实都是很简单的东西。
 
 		接下来就开始动动的巧手，祝你有个愉快、充实的旅程。
-
-		不要吝啬您手中的star哦！
+		            ☝想要一个star哦☺
