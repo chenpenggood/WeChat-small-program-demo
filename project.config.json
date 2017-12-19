@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.6.0",
 	"appid": "touristappid",
-	"projectname": "my_projeck",
+	"projectname": "%E7%BD%91%E6%98%93%E8%AF%BB%E4%B9%A6",
 	"condition": {
 		"search": {
 			"current": -1,
@@ -21,7 +21,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": -1,
 			"list": [
 				{
 					"id": 0,
